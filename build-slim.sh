@@ -1,5 +1,5 @@
 #/bin/sh
 
 docker build --squash \
-  -t mhart/alpine-node:slim-10 \
+  -t charlybronwperez/alpine-node:1 \
   -f slim.dockerfile .
